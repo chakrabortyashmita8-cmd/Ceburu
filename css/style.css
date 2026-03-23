@@ -1,0 +1,364 @@
+/* universal */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* common class */
+.container{
+    max-width: 1460px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+section img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+img{
+    max-width: 100%;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    width: 110px;
+    display: block;
+}
+h1, .heading-1{
+    font-size: 72px;
+    font-weight: 500;
+    color: #fff;
+    margin: 0 0 10px;
+    line-height: 1.2;
+    max-width: 581px;
+    text-transform: capitalize;
+}
+h2, .heading-2{
+    font-size: 60px;
+    font-weight: 500;
+    color: #000;
+    margin: 0 0 10px;
+    line-height: 1.1;
+    text-transform: capitalize;
+}
+h3,.heading-3{
+    font-size: 48px;
+    font-weight: 500;
+    color: #000;
+    margin: 0 0 30px;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+h4, .heading-4{
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+    margin: 0 0 20px;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+h5, .heading-5{
+    font-size: 24px;
+    font-weight: 400;
+    color: #000;
+    margin: 0 0 20px;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+h6, .heading-6{
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+    margin: 0 0 20px;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0 0 20px;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+span{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    margin: 0 0 10px;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+.cmn-gap{
+    padding: 100px 0;
+}
+/* navbar start */
+.nav-links li a{
+    display: block;
+    text-transform: capitalize;
+    margin: 0 30px 0 0;
+    color: #000;
+}
+.cmn-btn{
+    display: inline-block;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: #000;
+    color: #fff;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 500;
+    border: 1px solid;
+}
+.cmn-btn:hover{
+    background-color: antiquewhite;
+    color: #000;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.nav-links{
+    display: flex;
+}
+.button .login-link{
+    color: #000;
+}
+ /* navbar ends */
+/* banner starts */
+.banner{
+    /* compulsory */
+    min-height: 100vh;
+    background: url(../img/banner.png);
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+}
+.banner-child{
+    width: 50%;
+}
+/* banner ends */
+/* card start */
+.swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      /* text-align: center; */
+      /* font-size: 18px;
+      background: #444; */
+      display: flex;
+      justify-content: center;
+      /* align-items: center; */
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+.card-upper{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.cmn-card{
+    width: 100%;
+    position: relative;
+}
+.card-text{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 30px;
+}
+.card-upper p{
+    color: #000;
+}
+.card.cmn-gap{
+    padding-bottom: 0;
+}
+/* card ends */
+/* integration-child start */
+.integration .inner-text{
+    width: 60%;
+}
+.integration-child{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 30px;
+}
+.left, .right{
+    width: 50%;
+    padding: 0 30px;
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+
+.right p{
+    max-width: 496px;
+    color: #000;
+    margin: 0 0 10px;
+}
+.integration-btn{
+    background-color: #000;
+    color: #fff;
+}
+/* integration child ends */
+/* about start */
+.about{
+    min-height: 100vh;
+    background: url(../img/about\ 2.png);
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+}
+.about-child{
+    width: 50%;
+}
+.about-child h2{
+    color: #fff;
+}
+.about-child span{
+    color: #fff;
+}
+/* about ends */
+/* features start */
+.features.cmn-gap{
+    padding-bottom: 0;
+}
+.features-child{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 15px;
+}
+.left, .right{
+    width: 50%;
+    padding: 0 15px;
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+.features-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.features-grid li a{
+    color: #000;
+}
+/* features ends */
+/* footer start */
+.footer{
+    padding: 80px 0;
+}
+.footer-top{
+   display: flex;
+   justify-content: space-between;
+}
+.footer-top div{
+    text-transform: capitalize;
+    font-size: 60px;
+    font-weight: 500;
+}
+.footer-top p{
+    color: #000;
+    max-width: 800px;
+}
+.footer-button{
+    text-align: right;
+}
+.footer-middle{
+    text-align: center;
+}
+.footer-links{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+}
+.footer-links li{
+    margin: 0 30px 0 0;
+}
+.footer-links a{
+    color: #000;
+}
+ .social-icons{
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+.social-icons li{
+    border: 1px solid #000;
+    margin-right: 12px;
+    padding: 9px 13px;
+    border-radius: 50%;
+}
+.social-icons li a{
+    color: #000;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-bottom p{
+    color: #000;
+}
+.footer-bottom a{
+    color: #000;
+}
+.footer-middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* footer ends */
+/* slider */
+.swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #444;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+/* slider */
